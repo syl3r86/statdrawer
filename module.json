@@ -1,0 +1,14 @@
+{
+	"name": "statdrawer",
+	"title": "Stat Drawer",
+	"description": "A way to create ability scores using cards.",
+	"version": "0.1",
+	"author": "Felix",
+	"scripts": ["./statdrawer.js"],
+	"styles": ["./statdrawer.css"],
+	"packs": [],
+    "url": "https://github.com/syl3r86/statdrawer",
+    "manifest": "https://raw.githubusercontent.com/syl3r86/statdrawer/master/module.json",
+    "download": "https://github.com/syl3r86/statdrawer/archive/master.zip",
+    "minimumCoreVersion": "0.4.5"
+}

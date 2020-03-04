@@ -1,0 +1,233 @@
+.stat-drawer {
+    .card-small {
+        display:block;
+        position:absolute;
+        object-fit:contain;
+        background-size:cover;
+        background-image:url("cards/cardback.png");
+        width:50px;
+        height:75px;
+        border:none;
+    }
+    .window-content {
+        
+        background-image:url(cardsdrawbg.png);
+    }
+    
+    .body {
+        width: 800px;
+        height: 500px;
+        
+        .play-grid {
+            display:block;
+            position:relative;
+            list-style: none;
+            width: 800px;
+            height: 250px;
+            padding:0;
+            margin:0;
+            
+            .card-container {
+                display: block;
+                position:absolute;
+                height: 210px;
+                width: 140px;
+                top: 20px;
+                                
+                .card {
+                    display:inline-block;
+                    width:140px;
+                    height:210px;
+                    border:none;
+                }
+                .card:hover {
+                    box-shadow: 0 0 5px #9f7a7e;
+                }
+            }
+            
+            .deck {
+                left: 10px;
+            }
+            
+            .card-1 {
+                left: 330px;
+            }
+            
+            .card-2 {
+                left: 490px;
+            }
+            
+            .card-3 {
+                left: 650px;
+            }
+            
+            .controls {
+                display:block;
+                position:absolute;
+                top:0;
+                width:100%;
+                height:100%;
+                padding: 15px 10px;
+                
+                label, select, button {
+                    width: 100%;
+                    margin: 5px 0;
+                }
+                
+                select, button {
+                    border: 1px solid #AAA;
+                    opacity: 0.8;
+                }
+                
+                select {
+                    background: rgba(255, 255, 240, 0.8); 
+                }
+                
+                select:hover, button:hover {
+                    box-shadow: 0 0 5px red;
+                    opacity: 1;
+                    box-shadow: 0 0 5px #9f7a7e;
+                }
+            }            
+            
+        }
+        
+        .result-list {
+            list-style: none;
+            width: 800px;
+            height:200px;
+            margin:0;
+            padding:0;
+            padding-left:10px;
+            bottom:0;
+                    
+            
+            .result {
+                display:inline-block;
+                position:relative;
+                min-width: calc(100% / 6 - 3px);
+                height: 100%;  
+                margin:0;
+                padding:0;
+                /*min-width:100px;*/
+                
+                .card-display {
+                    display:block;
+                    width:100%;
+                    height:130px;
+                    
+                    .draw-1 {
+                        left:5px;
+                        top: 5px;
+                    }
+                        .draw-2 {
+                        left:30px;
+                        top:30px;
+                    }
+                        .draw-3 {
+                        left:55px;
+                        top:55px;
+                    }
+                }
+                
+                .result-controls {
+                    display:block;
+                    position:absolute;
+                    width:100%;
+                    padding:0 10px;
+                    
+                    label {
+                        color: #dfb0b5;
+                        text-shadow: 0 0 2px black;
+                        
+                        display:block;
+                        width:100%;
+                        text-align:center;
+                        font-size:26px;
+                    }
+                    
+                    button {
+                        margin: 5px 0;
+                    }
+                    
+                    select {
+                        color: #dfb0b5;
+                        background: rgba(255,255,240,0.5);
+                        width: 100%;
+                    }
+                }                    
+            }
+        }
+        
+        .help-display {
+            font-size:1em;
+            color: #dfb0b5;
+            text-shadow: 0 0 2px black;
+            font-weight:bold;
+            pointer-events: none;
+            
+            p {
+                background: rgba(0,0,0,0.5);
+                padding: 3px;
+            }
+            .card-help {
+                position:absolute;
+                font-size:2em;
+                top:210px;
+                left:410px;
+            }
+            .deck-help {
+                position:absolute;
+                top:95px;
+                left:170px;
+            }
+            .shuffle-help {
+                position:absolute;
+                top:142px;
+                left:170px;
+            }
+            .apply-help {
+                position:absolute;
+                top:176px;
+                left:170px;
+            }
+            .help-help {
+                position:absolute;
+                top:226px;
+                left:170px;
+            }
+        }
+    }
+}
+
+.stat-draw-message {
+    ul {
+        list-style: none;
+        
+        li {
+            display:flex;
+            
+            .card-display {
+                display:inline-block;
+                height:60px;
+                width: 130px;
+
+                .card-small {
+                    display:inline-block;
+                    object-fit:contain;
+                    background-size:cover;
+                    background-image:url("cards/cardback.png");
+                    width:40px;
+                    height:60px;
+                }        
+
+            }
+            label {
+                display: inline-block;
+                font-size:20px;
+                align-self:center;
+            }
+        }        
+        
+    }
+}

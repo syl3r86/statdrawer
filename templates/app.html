@@ -1,0 +1,64 @@
+<div class="body">
+    <ul class="play-grid">
+        <li class="card-container deck">
+            <img class="card deck" src="modules/statdrawer/cards/cardback.png">
+            <div class="controls">
+                <p>
+                    <label>Select Deck:</label>
+                    <select class="deck-select">
+                        {{#select selectedDeck}}
+                        <option value="monsterdeck">Monster</option>
+                        <option value="deck">Standard</option>
+                        {{/select}}
+                    </select>
+                </p>
+                <button class="reshuffle">Reshuffle</button>
+                <button class="apply-abilities">Apply</button>
+                <button class="help">Help</button>
+            </div>
+        </li>
+        
+        {{#each currentSet as |card id|}}
+            <li class="card-container card-{{id}}">
+                {{#if card}}
+                    <img class="card" data-card="{{id}}" src="{{card.img}}">
+                {{else}}
+                    <img class="card drawable" data-card="{{id}}" src="modules/statdrawer/cards/cardback.png">
+                {{/if}}
+            </li>
+            
+            
+        {{/each}}
+    </ul>
+        
+        <ul class="result-list">
+            {{#each resultDeck as |resultSet id|}}
+                <li class="result result-{{id}}" data-setId="{{id}}">
+                    <div class="card-display">
+                        {{#each resultSet as |card id|}}
+                            <img class="card-small draw-{{id}}" {{#if card.img}}src="{{card.img}}"{{/if}}>
+                        {{/each}}
+                    </div>
+                    <div class="result-controls">
+                        <label>{{cardSum resultSet}}</label>
+                        <select class="abilty-select">
+                            <option value="none"></option>
+                            <option value="str">Strength</option>
+                            <option value="dex">Dexterity</option>
+                            <option value="con">Conmstitution</option>
+                            <option value="int">Intelligence</option>
+                            <option value="wis">Wisdom</option>
+                            <option value="cha">Charisma</option>
+                        </select>
+                    </div>
+                </li>
+            {{/each}}
+        </ul>
+    <div class="help-display">
+        <p class="card-help">Click here to draw cards</p>
+        <p class="deck-help">Select a different<br> deck appearance</p>
+        <p class="shuffle-help">Reset all cards</p>
+        <p class="apply-help">Apply values to<br> selected ability</p>
+        <p class="help-help">Toggle Help overlay</p>
+    </div>
+</div>

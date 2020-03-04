@@ -1,0 +1,200 @@
+.stat-drawer .card-small {
+  display: block;
+  position: absolute;
+  object-fit: contain;
+  background-size: cover;
+  background-image: url("cards/cardback.png");
+  width: 50px;
+  height: 75px;
+  border: none;
+}
+.stat-drawer .window-content {
+  background-image: url(cardsdrawbg.png);
+}
+.stat-drawer .body {
+  width: 800px;
+  height: 500px;
+}
+.stat-drawer .body .play-grid {
+  display: block;
+  position: relative;
+  list-style: none;
+  width: 800px;
+  height: 250px;
+  padding: 0;
+  margin: 0;
+}
+.stat-drawer .body .play-grid .card-container {
+  display: block;
+  position: absolute;
+  height: 210px;
+  width: 140px;
+  top: 20px;
+}
+.stat-drawer .body .play-grid .card-container .card {
+  display: inline-block;
+  width: 140px;
+  height: 210px;
+  border: none;
+}
+.stat-drawer .body .play-grid .card-container .card:hover {
+  box-shadow: 0 0 5px #9f7a7e;
+}
+.stat-drawer .body .play-grid .deck {
+  left: 10px;
+}
+.stat-drawer .body .play-grid .card-1 {
+  left: 330px;
+}
+.stat-drawer .body .play-grid .card-2 {
+  left: 490px;
+}
+.stat-drawer .body .play-grid .card-3 {
+  left: 650px;
+}
+.stat-drawer .body .play-grid .controls {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15px 10px;
+}
+.stat-drawer .body .play-grid .controls label,
+.stat-drawer .body .play-grid .controls select,
+.stat-drawer .body .play-grid .controls button {
+  width: 100%;
+  margin: 5px 0;
+}
+.stat-drawer .body .play-grid .controls select,
+.stat-drawer .body .play-grid .controls button {
+  border: 1px solid #AAA;
+  opacity: 0.8;
+}
+.stat-drawer .body .play-grid .controls select {
+  background: rgba(255, 255, 240, 0.8);
+}
+.stat-drawer .body .play-grid .controls select:hover,
+.stat-drawer .body .play-grid .controls button:hover {
+  box-shadow: 0 0 5px red;
+  opacity: 1;
+  box-shadow: 0 0 5px #9f7a7e;
+}
+.stat-drawer .body .result-list {
+  list-style: none;
+  width: 800px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  bottom: 0;
+}
+.stat-drawer .body .result-list .result {
+  display: inline-block;
+  position: relative;
+  min-width: calc(100% / 6 - 3px);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /*min-width:100px;*/
+}
+.stat-drawer .body .result-list .result .card-display {
+  display: block;
+  width: 100%;
+  height: 130px;
+}
+.stat-drawer .body .result-list .result .card-display .draw-1 {
+  left: 5px;
+  top: 5px;
+}
+.stat-drawer .body .result-list .result .card-display .draw-2 {
+  left: 30px;
+  top: 30px;
+}
+.stat-drawer .body .result-list .result .card-display .draw-3 {
+  left: 55px;
+  top: 55px;
+}
+.stat-drawer .body .result-list .result .result-controls {
+  display: block;
+  position: absolute;
+  width: 100%;
+  padding: 0 10px;
+}
+.stat-drawer .body .result-list .result .result-controls label {
+  color: #dfb0b5;
+  text-shadow: 0 0 2px black;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 26px;
+}
+.stat-drawer .body .result-list .result .result-controls button {
+  margin: 5px 0;
+}
+.stat-drawer .body .result-list .result .result-controls select {
+  color: #dfb0b5;
+  background: rgba(255, 255, 240, 0.5);
+  width: 100%;
+}
+.stat-drawer .body .help-display {
+  font-size: 1em;
+  color: #dfb0b5;
+  text-shadow: 0 0 2px black;
+  font-weight: bold;
+  pointer-events: none;
+}
+.stat-drawer .body .help-display p {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 3px;
+}
+.stat-drawer .body .help-display .card-help {
+  position: absolute;
+  font-size: 2em;
+  top: 210px;
+  left: 410px;
+}
+.stat-drawer .body .help-display .deck-help {
+  position: absolute;
+  top: 95px;
+  left: 170px;
+}
+.stat-drawer .body .help-display .shuffle-help {
+  position: absolute;
+  top: 142px;
+  left: 170px;
+}
+.stat-drawer .body .help-display .apply-help {
+  position: absolute;
+  top: 176px;
+  left: 170px;
+}
+.stat-drawer .body .help-display .help-help {
+  position: absolute;
+  top: 226px;
+  left: 170px;
+}
+.stat-draw-message ul {
+  list-style: none;
+}
+.stat-draw-message ul li {
+  display: flex;
+}
+.stat-draw-message ul li .card-display {
+  display: inline-block;
+  height: 60px;
+  width: 130px;
+}
+.stat-draw-message ul li .card-display .card-small {
+  display: inline-block;
+  object-fit: contain;
+  background-size: cover;
+  background-image: url("cards/cardback.png");
+  width: 40px;
+  height: 60px;
+}
+.stat-draw-message ul li label {
+  display: inline-block;
+  font-size: 20px;
+  align-self: center;
+}

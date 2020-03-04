@@ -1,0 +1,18 @@
+<div class="stat-draw-message">
+    <h4>{{name}} is drawing stats</h4>
+    <ul class="result-list">
+        {{#each resultDeck as |resultSet id|}}
+            <li id="{{id}}" class="result">
+                <div class="card-display">
+                    {{#each resultSet as |card id|}}
+                        <div class="card-small">
+                            {{#if card.img}}<img class="card-small draw-{{id}}" src="{{card.img}}">{{/if}}
+                        </div>  
+                    
+                    {{/each}}
+                </div>
+                <label>{{cardSum resultSet}}</label>
+            </li>
+        {{/each}}
+    </ul>
+</div> 

@@ -1,0 +1,20 @@
+{
+    "1":{"value":2, "img":"modules/statdrawer/monstercards/2a.png"},
+    "2":{"value":2, "img":"modules/statdrawer/monstercards/2b.png"},
+    "3":{"value":2, "img":"modules/statdrawer/monstercards/2c.png"},
+    "4":{"value":2, "img":"modules/statdrawer/monstercards/2d.png"},
+    "5":{"value":3, "img":"modules/statdrawer/monstercards/3a.png"},
+    "6":{"value":3, "img":"modules/statdrawer/monstercards/3b.png"},
+    "7":{"value":3, "img":"modules/statdrawer/monstercards/3d.png"},
+    "8":{"value":4, "img":"modules/statdrawer/monstercards/4a.png"},
+    "9":{"value":4, "img":"modules/statdrawer/monstercards/4b.png"},
+    "10":{"value":4, "img":"modules/statdrawer/monstercards/4c.png"},
+    "11":{"value":4, "img":"modules/statdrawer/monstercards/4d.png"},
+    "12":{"value":5, "img":"modules/statdrawer/monstercards/5b.png"},
+    "13":{"value":5, "img":"modules/statdrawer/monstercards/5c.png"},
+    "14":{"value":5, "img":"modules/statdrawer/monstercards/5d.png"},
+    "15":{"value":6, "img":"modules/statdrawer/monstercards/6a.png"},
+    "16":{"value":6, "img":"modules/statdrawer/monstercards/6b.png"},
+    "17":{"value":6, "img":"modules/statdrawer/monstercards/6c.png"},
+    "18":{"value":6, "img":"modules/statdrawer/monstercards/6d.png"}
+}
