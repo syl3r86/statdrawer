@@ -25,11 +25,11 @@ All credit for artwork (cards and the background image) goes to [@Setsuretsu](ht
 If you feel like supporting my work, feel free to leave a tip at my paypal felix.mueller.86@web.de
 
 ## License
-The sourcecode (javascript, css and html) fall under this liscence:
+The sourcecode (javascript, css and html) fall under this licence:
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Stat Drawer - a module for Foundry VTT -</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/syl3r86?tab=repositories" property="cc:attributionName" rel="cc:attributionURL">Felix Müller</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
-The Artworks liscence is as follows:
+The Artworks licence is as follows:
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Stat Drawer Artwork</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://twitter.com/setsuretsu" property="cc:attributionName" rel="cc:attributionURL">Setsuretsu</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
