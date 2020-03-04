@@ -4,6 +4,7 @@
 	"description": "A way to create ability scores using cards.",
 	"version": "0.1",
 	"author": "Felix",
+	"systems": ["dnd5e"],
 	"scripts": ["./statdrawer.js"],
 	"styles": ["./statdrawer.css"],
 	"packs": [],
