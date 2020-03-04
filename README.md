@@ -20,7 +20,7 @@ An ingame configuration menu is planed for a later date.
 You can select which ability a score should be assigned to. Once all 6 scores have been generated and the ability has been asigned you can apply those scores to the character by hitting the Apply button.
 
 ## Contribution
-All artwork for cards and the background goes to [@Setsuretsu](https://twitter.com/setsuretsu)
+All credit for artwork (cards and the background image) goes to [@Setsuretsu](https://twitter.com/setsuretsu)
 
 If you feel like supporting my work, feel free to leave a tip at my paypal felix.mueller.86@web.de
 
