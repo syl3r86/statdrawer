@@ -9,7 +9,7 @@ A module for Foundry VTT that lets you generate ablitiyscores for characters usi
     
 2. Enable the Module in your Worlds Module Settings
 
-[-> Preview <-](https://streamable.com/msm48)
+<a href="https://streamable.com/q3ch7" title="Preview"><img src="preview.jpg" alt="Preview" /></a>
 
 ## Decks
 There are 2 visually distinct decks that can be chosen from. Each deck contains cards of the following values: 4*2, 3*3, 4*4, 3*5, 4*6.
