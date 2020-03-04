@@ -12,7 +12,7 @@ A module for Foundry VTT that lets you generate ablitiyscores for characters usi
 <a href="https://streamable.com/q3ch7" title="Preview"><img src="preview.jpg" alt="Preview" /></a>
 
 ## Decks
-There are 2 visually distinct decks that can be chosen from. Each deck contains cards of the following values: 4*2, 3*3, 4*4, 3*5, 4*6.
+There are 2 visually distinct decks that can be chosen from. Each deck contains cards of the following values: 4x2, 3x3, 4x4, 3x5, 4x6.
 The used artwork for cards and the values can be edited in the json files in the decks folder.
 An ingame configuration menu is planed for a later date.
 
