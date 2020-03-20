@@ -3,7 +3,7 @@
 	"title": "Stat Drawer",
 	"description": "A way to create ability scores using cards.",
 	"version": "0.1",
-	"author": "Felix",
+	"author": "Felix#6196",
 	"systems": ["dnd5e"],
 	"scripts": ["./statdrawer.js"],
 	"styles": ["./statdrawer.css"],
