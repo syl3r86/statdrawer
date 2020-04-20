@@ -1,15 +1,16 @@
 {
-	"name": "statdrawer",
-	"title": "Stat Drawer",
-	"description": "A way to create ability scores using cards.",
-	"version": "0.1",
-	"author": "Felix#6196",
-	"systems": ["dnd5e"],
-	"scripts": ["./statdrawer.js"],
-	"styles": ["./statdrawer.css"],
-	"packs": [],
+    "name": "statdrawer",
+    "title": "Stat Drawer",
+    "description": "A way to create ability scores using cards.",
+    "version": "0.1",
+    "author": "Felix#6196",
+    "systems": ["dnd5e"],
+    "scripts": ["./statdrawer.js"],
+    "styles": ["./statdrawer.css"],
+    "packs": [],
     "url": "https://github.com/syl3r86/statdrawer",
     "manifest": "https://raw.githubusercontent.com/syl3r86/statdrawer/master/module.json",
     "download": "https://github.com/syl3r86/statdrawer/archive/master.zip",
-    "minimumCoreVersion": "0.4.5"
+    "minimumCoreVersion": "0.5.5",
+    "compatibleCoreVersion": "0.5.5"
 }
