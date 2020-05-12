@@ -2,7 +2,7 @@
     "name": "statdrawer",
     "title": "Stat Drawer",
     "description": "A way to create ability scores using cards.",
-    "version": "0.1",
+    "version": "0.2",
     "author": "Felix#6196",
     "systems": ["dnd5e"],
     "scripts": ["./statdrawer.js"],

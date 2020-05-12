@@ -239,7 +239,8 @@ class StatDrawer extends Application {
 }
 let statDrawer;
 
-Hooks.on('renderActorSheet5eCharacter', (app, html, data) => {
+Hooks.on('renderActorSheet', (app, html, data) => {
+    if (app.actor.data.type === 'npc') return;
     if (statDrawer === undefined) {
         statDrawer = new StatDrawer();
     }
