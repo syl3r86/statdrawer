@@ -205,11 +205,12 @@ class StatDrawer extends Application {
                     } else {
                         element.off('click');
                     }
+                    element.animate({
+                        width: originalWidth,
+                        'margin-left': 0
+                    }, animationTime);
                 }
-            }).animate({
-                width: originalWidth,
-                'margin-left': 0
-            }, animationTime);
+            });
     }
 
     async updateChatMessage() {
